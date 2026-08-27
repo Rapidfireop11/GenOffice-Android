@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["vitest/globals"],
+    "paths": {
+      "@genoffice/docx-engine": ["../../packages/docx-engine/src/index.ts"]
+    }
+  },
+  "include": ["src", "tests", "vite.config.ts", "vitest.config.ts"]
+}

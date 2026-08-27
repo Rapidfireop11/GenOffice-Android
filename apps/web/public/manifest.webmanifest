@@ -1,0 +1,9 @@
+{
+  "name": "RapidOffice Web Workspace",
+  "short_name": "RapidOffice",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef3ec",
+  "theme_color": "#10261f",
+  "description": "A local-first browser workspace for private document authoring."
+}
