@@ -28,7 +28,7 @@ Run the focused checks with `npm run test:web` and `npm run build:web`.
 
 ## Validation status
 
-The web workspace has been checked at a 375 × 812 CSS-pixel mobile viewport. The browser layout collapses into one column, preserves the touch-safe action rail, keeps the Profile settings reachable, and retains the document, AI, and local-save controls without horizontal overflow.
+The web workspace has been checked in a top-level Chromium page at a 375 × 812 CSS-pixel mobile viewport. The browser layout collapses into one column, preserves the touch-safe action rail, keeps the Profile settings reachable, and retains the document, AI, and local-save controls without horizontal overflow.
 
 The web edition is an additive browser workspace, not an assertion of full feature parity with the upstream Electron applications. The existing desktop apps remain untouched. In particular, the browser edition currently supports local text/Markdown editing and local DOCX text extraction; full lossless DOCX, XLSX, PPTX, PDF, system OCR, and multi-window editing require browser-specific adapters before they can match the native suite.
 
